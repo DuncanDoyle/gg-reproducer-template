@@ -19,7 +19,6 @@ spec:
           type: PathPrefix
           value: /
       backendRefs:
-      # Delegate to another HTTPRoute
       - name: httpbin
         namespace: httpbin
         port: 8000
